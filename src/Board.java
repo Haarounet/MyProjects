@@ -33,15 +33,15 @@ public class Board {
         }
     }
 
-    public void squareStatus(String Board, String Coordonates) {
-        return Board(Coordonates);
+    public void squareStatus(String board, String Coordonates) {
+        return board.get(Coordonates);
     }
 
-    public void putShip(String Board, String Boat) {
+    public void putShip(String Board, String Ship) {
 
     }
 
-    public void shotAt(Coordonates) {
+    public void shotAt(String Coordonates) {
 
     }
 }

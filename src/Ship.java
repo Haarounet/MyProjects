@@ -1,6 +1,6 @@
-public class Boat {
+public class Ship {
 
-    public Boat(String name, String location, String direction) {
+    public Ship(String name, String location, String direction) {
         int boatLenght;
         if (name == "CA"){
             boatLenght = 5;
